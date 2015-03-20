@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <view
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.redbear.Simple_Dash.JoystickView"
+        android:id="@+id/joystickView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angle"
+        android:id="@+id/angleLabeltextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/angleTextView"
+        android:id="@+id/angleTextView"
+        android:layout_toRightOf="@+id/angleLabeltextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:id="@+id/powerLabeltextView"
+        android:layout_below="@+id/angleLabeltextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/powerTextView"
+        android:id="@+id/powerTextView"
+        android:layout_toRightOf="@+id/powerLabeltextView"
+        android:layout_below="@+id/angleLabeltextView"
+        android:layout_marginLeft="5sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direction"
+        android:id="@+id/directionLabelTextView"
+        android:layout_below="@+id/powerLabeltextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/directionTextView"
+        android:id="@+id/directionTextView"
+        android:layout_toRightOf="@+id/directionLabelTextView"
+        android:layout_below="@+id/powerLabeltextView"
+        android:layout_marginLeft="5sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signals"
+        android:id="@+id/signalsCheckBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"/>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/agillies/AndroidStudioProjects/Simple_Dash/app/src/main/res/layout/second.xml -->

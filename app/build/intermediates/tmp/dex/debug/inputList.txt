@@ -1,0 +1,2 @@
+C:\Users\agillies\AndroidStudioProjects\Simple_Dash\app\build\intermediates\classes\debug
+C:\Users\agillies\AndroidStudioProjects\Simple_Dash\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-b72a502ddfdd625ad320c94d1abe3f47435bee37.jar
